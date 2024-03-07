@@ -1,0 +1,23 @@
+{
+  "name": "java-stream-course",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "workspace",
+  "workspaceFolder": "/home/vscode/workspace",
+  "remoteUser": "vscode",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-maven",
+        "redhat.vscode-xml",
+        "redhat.fabric8-analytics",
+        "ms-azuretools.vscode-docker",
+        "davidanson.vscode-markdownlint"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+  }
+}
